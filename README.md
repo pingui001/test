@@ -13,6 +13,9 @@ In the index file you can see the style of my page. In this image you can see it
 My project is about my portfolio. It tells a little about me, my skills, my projects, and a contact information. It also has images and a link to my GitHub.
 
 Name: Nicolas Porras Patiño
+
 Clan: Gosling
+
 Email: nicolasporras0910@gmail.com
+
 C.C: 1000414068
