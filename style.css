@@ -1,0 +1,294 @@
+/*styles for all page*/
+body {
+    background-color: rgb(231, 252, 252);
+    line-height: 1.6;
+    color: rgb(0, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.style1 h1 {
+    font-size: 2.2rem;
+    margin: 0;
+    font-weight: 600;
+    animation: 10;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    background-color: #ffffff;
+    padding: 1rem 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    flex-wrap: wrap;
+}
+
+img {
+    height: 24rem;
+}
+/*style of the header of my page*/
+header {
+    display: grid;
+    place-items: center;
+    background: linear-gradient(135deg, #2c3e50 0%, #b4b5ff 100%);
+    padding: 2rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: #000000;
+}
+
+section h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+section {
+    display: grid;
+    place-items: center;
+}
+/*footer where my github is*/
+footer {
+    display: grid;
+    place-items: center;
+    background: linear-gradient(135deg, #2c3e50 0%, #b4b5ff 100%);
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: #000000;
+    font-size: 1.3rem;
+}
+
+footer p a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.list a {
+    color: #3ab0ff;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.5rem 0.8rem;
+    transition: color 0.3s ease;
+}
+/*box to contact me*/
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 0.6rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    box-sizing: border-box;
+}
+
+button {
+    margin: 0.6rem 0;
+    padding: 0.3rem 0.7rem;
+}
+
+.about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row: auto;
+}
+
+.first {
+    grid-row: 6/2;
+    grid-column: 2/3;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+/*page order, like squares*/
+.style2 {
+    margin: 1.5rem auto;
+    max-width: 900px;
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+hr {
+    height: auto;
+    width: 700px;
+}
+
+.sstyle {
+    width: 100%;
+    margin: 1rem 0;
+    overflow-x: auto;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.sstyle th,
+.sstyle td {
+    padding: 0.8rem;
+    text-align: left;
+    border: 1px solid #e0e0e0;
+}
+
+.left {
+    display: grid;
+    grid-row: 2/3;
+    grid-column: 1/1;
+}
+
+
+.left2 {
+    display: grid;
+    grid-row: 2/1;
+    grid-column: 2/2;
+}
+
+.margin {
+    margin: 0 0 0 30px;
+}
+
+.images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.button {
+    background-color: #2ecc71;
+    color: #ffffff;
+    padding: 0.6rem 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+}
+/*images of Python, HTML, CSS*/
+.si {
+    padding: 0 10px 0 10px;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    animation-name: example;
+    animation-duration: 10s;
+    animation-delay: 3s;
+}
+/*keyframes to images*/
+@keyframes example {
+    0% {
+        background-color: rgb(195, 226, 255);
+    }
+
+    25% {
+        background-color: rgb(233, 154, 154);
+    }
+
+    50% {
+        background-color: rgb(234, 252, 237);
+    }
+
+    100% {
+        background-color: #2c3e50;
+    }
+}
+
+footer {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0 0 2rem;
+}
+/*responsive to 768px*/
+@media (max-width: 768px) {
+    .style1 h1 {
+        font-size: 1.8rem;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+
+
+    .si {
+        height: 80px;
+        width: 80px;
+    }
+
+    hr {
+        width: 19rem;
+    }
+
+    .list {
+        flex-direction: column;
+        gap: 0.5rem;
+        padding: 0.5rem;
+    }
+
+    .list a {
+        font-size: 0.9rem;
+        padding: 0.5rem;
+        text-align: center;
+    }
+
+    .style2 {
+        display: flex;
+        flex-direction: column;
+        margin: 1rem;
+        padding: 1rem;
+
+    }
+
+    .style2 h2 {
+        font-size: 1.4rem;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        font-size: 0.8rem;
+        padding: 0.5rem;
+    }
+
+    .button {
+        font-size: 0.8rem;
+        padding: 0.5rem 1rem;
+    }
+
+    img {
+        height: 210px;
+    }
+}
+/*responsive to 480px*/
+@media (max-width: 480px) {
+    .style1 {
+        padding: 1rem;
+    }
+
+    .style1 h1 {
+        font-size: 1.5rem;
+    }
+
+    .style2 {
+        margin: 0.5rem;
+        padding: 0.75rem;
+    }
+
+    .style2 h2 {
+        font-size: 1.2rem;
+    }
+
+    .sstyle th,
+    .sstyle td {
+        padding: 0.5rem;
+        font-size: 0.8rem;
+    }
+}
