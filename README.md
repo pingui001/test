@@ -1,6 +1,7 @@
 # test 
 README about my page with HTML and CSS
 The img folder contains all the images on the page.
+
 ![img](https://github.com/user-attachments/assets/26adf7cd-3f7c-40ce-b738-c19a7093df8c)
 
 In the index file you can see the structure of my page. In this image you can see it
